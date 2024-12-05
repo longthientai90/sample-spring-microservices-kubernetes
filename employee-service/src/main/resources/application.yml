@@ -1,6 +1,9 @@
 spring:
   application:
     name: employee
+  data:
+    mongodb:
+      uri: ${MONGO_URL:mongodb://localhost:27017/db_sample}
   output:
     ansi:
       enabled: ALWAYS

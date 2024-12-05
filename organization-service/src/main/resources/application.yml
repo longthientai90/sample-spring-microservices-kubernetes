@@ -1,6 +1,9 @@
 spring:
   application:
     name: organization
+  data:
+    mongodb:
+      uri: ${MONGO_URL:mongodb://localhost:27017/db_sample}
 
 logging:
   pattern:
